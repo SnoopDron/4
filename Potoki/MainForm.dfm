@@ -1,0 +1,58 @@
+object Form1: TForm1
+  Left = 192
+  Top = 107
+  Width = 326
+  Height = 276
+  Caption = #1055#1086#1090#1086#1082#1080
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 216
+    Top = 24
+    Width = 69
+    Height = 13
+    Caption = '                       '
+  end
+  object Memo1: TMemo
+    Left = 16
+    Top = 24
+    Width = 185
+    Height = 201
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 216
+    Top = 136
+    Width = 75
+    Height = 25
+    Caption = 'Start'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 216
+    Top = 168
+    Width = 75
+    Height = 25
+    Caption = 'Pause'
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 216
+    Top = 200
+    Width = 75
+    Height = 25
+    Caption = 'Stop'
+    TabOrder = 3
+    OnClick = Button3Click
+  end
+end
